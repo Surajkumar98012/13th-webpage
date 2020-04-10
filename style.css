@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+ #run  {
+   width:50px;height:50px;
+   position:absolute;
+   padding-left: 10px;
+   padding-top: 10px;
+   left: 0;
+    transition-property: width,height,padding-left,padding-top;
+    transition-duration: 1.5s;
+    transition-timing-function: linear;
+  
+ }
+ #run:hover{
+ 	width: 440px;
+ 	height: 440px;
+ 	padding-left: 460px;
+ 	padding-top: 150px;
+
+ }
+ p{
+ 	color:red;
+ 	font-family:  serif;
+ 	font-weight: bolder;
+ }
+.c1{
+	border: 2px dashed yellow;
+	width: 400px;
+	height: 70px;
+	background-color: rgba(115,185,185,0.8);
+}
+.c1:hover{
+ 	width: 540px;
+ 	height: 130px;
+ /*	padding-left: 460px;
+ 	padding-top: 150px;*/
+
+ }
